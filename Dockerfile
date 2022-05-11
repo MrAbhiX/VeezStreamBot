@@ -11,7 +11,7 @@ RUN apt-get update \
 COPY . /app/
 WORKDIR /app/
 
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+RUN pip3 install --no-cache-dir --upgrade --requirement nobita
 
 
 CMD ["python3", "main.py"]
