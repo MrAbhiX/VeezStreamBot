@@ -18,6 +18,6 @@ gitpython
 ffmpeg-python
 python-dotenv
 
-yt-dlp
+yt-dlp==2022.04.08
 youtube-search
 youtube-search-python
